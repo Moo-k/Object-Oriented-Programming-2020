@@ -1,0 +1,6 @@
+1. sometimes gets stuck after asking for hit/stand (stand only && dealer doesnt bust/dealer wins i think?) (stand sometimes results in loop ,where u have to hit)
+resolved 2. sometimes gets stuck while drawing card
+3. dealer doesnt always hit while below 17
+4. non integer inputs in integer inputs (H/S,Y/N) causes spam
+resolved 5. after choosing to keep playing, value of ace gets set to random value (???)
+6. got stuck while printing debug whole deck???

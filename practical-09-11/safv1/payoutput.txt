@@ -1,0 +1,20 @@
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Stopped recruiting.
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), or Exit (5)?
+Enter seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: 
+Checking pay of man: Alex
+Monthly Pay: 650
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), or Exit (5)?
+Enter seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: 
+Checking pay of specialist: Carson
+Monthly Pay: 2300
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), or Exit (5)?
+Exiting Program.

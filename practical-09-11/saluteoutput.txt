@@ -1,0 +1,14 @@
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Stopped recruiting.
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter first soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: Enter second soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: Good Morning Sir! 
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter first soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: Enter second soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: Knock it down!! 
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Exiting Program.

@@ -1,0 +1,91 @@
+monster generation > multiple skeletons and zombies, delete when oob
+item generation > same thing
+update function > zombie pursuit, skeleton patrol
+skeleton ranged attack > fires '* ' (speed 1 attack 1 health 1) entity
+
+needs:
+cin (login system/difficulty level)
+entity::update > zombie skeleton arrow
+
+
+//move skeleton and zombie under monster -> add row and col coords to monster class for generation and movement
+//add 3 on zombie kill, add 5 score on skeleton kill
+1d20 on each 'E' square during world gen
+vector of monsters vector<monster> might work? https://softwareengineering.stackexchange.com/questions/247245/a-vector-of-pointers-to-different-derived-classes-of-the-same-base-class
+
+when bottom 5 rows is out of bounds, delete any mobs with row coord <5
+update() monster
+	patrol() skeleton
+		left until not empty
+		right until not empty
+		if skeleton row == player row | skeleton col == player col
+			attackcooldown = 0;
+			if attackcooldown%3 == 0	
+				attack '*' (set as monster, same behavior on touch as zombie with set speed 2, attack = skeleton attack/10, health = 1)
+				skeleton.attackcooldown++
+	pursuit() zombie
+		check col coord of player and zombie
+			if player < zombie && zombie col -- spot is empty
+				zombie col --
+			else if player > zombie && zombie col ++ spot is empty
+				zombie col ++
+			else
+				if player row > zombie row && zombie row ++ spot is empty
+					zombie row ++
+				else (//if player row < zombie row &&) zombie row -- spot is empty
+					zombie row --
+				
+monster scaling:
+	skeletonattack:	player.score*0.7
+	skeletonhealth:	player.score*0.5
+	onskeletonkill: player.health += skeletonhealth/30; player.attack += skeletonattack/30
+	zombieattack: player.score*0.6
+	zombiehealth: player.score*0.8
+	**change as required
+	
+	scale item rarity to monster rarity
+	scale item buffs to monster strength
+	
+	difficulty levels: 	
+
+skeleton::attackcooldown
+
+void zombie::update(player &p1, vector<vector<cell>> &map){
+    if (p1.getColCoord() < colCoord && map[rowCoord][colCoord-1].getState() == 'E'){
+      map[rowCoord][colCoord].setState('E');
+      colCoord--;
+      map[rowCoord][colCoord].setState('Z');
+    } else if (p1.getColCoord() > colCoord && map[rowCoord][colCoord+1].getState() == 'E'){
+      map[rowCoord][colCoord].setState('E');
+      colCoord++;
+      map[rowCoord][colCoord].setState('Z');
+    } else if (p1.getRowCoord() > rowCoord && map[rowCoord+1][colCoord].getState() == 'E'){
+      map[rowCoord][colCoord].setState('E');
+      rowCoord++;
+      map[rowCoord][colCoord].setState('Z');
+    } else{
+      map[rowCoord][colCoord].setState('E');
+      rowCoord--;
+      map[rowCoord][colCoord].setState('Z');
+    }
+}
+
+all items/entities after first one arent real
+
+#include "pte.h"
+#include "lcp.h"
+#include "cpl.h"
+#include "3sg.h"
+#include "2sg.h"
+#include "1sg.h"
+#include "ssg.h"
+#include "msg.h"
+#include "2lt.h"
+#include "lta.h"
+#include "cpt.h"
+#include "maj.h"
+#include "ltc.h"
+#include "col.h"
+#include "bg.h"
+#include "mg.h"
+#include "lg.h"

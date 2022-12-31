@@ -1,0 +1,8 @@
+echo Test 01: salute test passed
+./output < saluteinput.txt | diff - saluteoutput.txt
+echo Test 02: parade test passed
+./output < paradeinput.txt | diff - paradeoutput.txt
+echo Test 03: check pay test passed
+./output < payinput.txt | diff - payoutput.txt
+echo Test 04: change rank test passed
+./output < rankinput.txt | diff - rankoutput.txt

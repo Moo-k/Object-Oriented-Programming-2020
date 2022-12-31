@@ -1,0 +1,70 @@
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Stopped recruiting.
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter first soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: [H[2J[3J|                                       |
+|                                       |
+|                                       |
+|    0                       _______    |
+|   /|\ ︻╦╤─                |TARGET|  |
+|    /\                      |      |  |
+[H[2J[3J|                                      |
+|              phew                    |
+|                                      |
+|    0              phew      _______  |
+|   /|\ ︻╦╤─  -   -    -   -|TARGET| |
+|    /\       phew           |      | |
+[H[2J[3J|                                       |
+|            TARGET SHOT                |
+|         training completed            |
+|    0                        _______   |
+|   /|\ ︻╦╤─                |  💀  |  |
+|    /\                      |      |  |
+[H[2J[3Jrifle training for m 1234 completed
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter first soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: [H[2J[3J|                                       |
+|                                       |
+|                                       |
+|    0                       _______    |
+|   /|\ ︻╦╤─                |TARGET|  |
+|    /\                      |      |  |
+[H[2J[3J|                                      |
+|              phew                    |
+|                                      |
+|    0              phew      _______  |
+|   /|\ ︻╦╤─  -   -    -   -|TARGET| |
+|    /\       phew           |      | |
+[H[2J[3J|                                       |
+|            TARGET SHOT                |
+|         training completed            |
+|    0                        _______   |
+|   /|\ ︻╦╤─                |  💀  |  |
+|    /\                      |      |  |
+[H[2J[3Jrifle training for m 1352 completed
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter first soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: [H[2J[3J|                                       |
+|                                       |
+|                                       |
+|    0                       _______    |
+|   /|\ ︻╦╤─                |TARGET|  |
+|    /\                      |      |  |
+[H[2J[3J|                                      |
+|              phew                    |
+|                                      |
+|    0              phew      _______  |
+|   /|\ ︻╦╤─  -   -    -   -|TARGET| |
+|    /\       phew           |      | |
+[H[2J[3J|                                       |
+|            TARGET SHOT                |
+|         training completed            |
+|    0                        _______   |
+|   /|\ ︻╦╤─                |  💀  |  |
+|    /\                      |      |  |
+[H[2J[3Jrifle training for s 6232 completed
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Exiting Program.

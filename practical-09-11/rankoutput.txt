@@ -1,0 +1,13 @@
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Enter name, nric, seniority (Man (m) / Specialist (s) / Officer (o) / General (g)), rank, and height: 
+Enlisting (1) or Stop (0): 
+Stopped recruiting.
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Enter soldier's seniority (Man (m) / Specialist (s) / Officer (o) / General (g)) and NRIC: Enter new rank: 
+Changed Carson's rank from 2SG to SSG
+Parade (1), Salute(2), Check Pay (3), Change Rank (4), Rifle Training (5), Exit (6), or ORD (7)?
+Exiting Program.

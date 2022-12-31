@@ -1,0 +1,13 @@
+sorted integers a, size n
+target x
+middle = a/2
+while found != true
+if x = middle
+	found = true
+else if x > middle
+	middle = (middle+last)/2
+else if x < middle
+	middle = (middle+first)/2
+else
+	not found
+

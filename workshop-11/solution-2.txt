@@ -1,0 +1,12 @@
+for i in row
+	for j in col
+		if 0
+			store i and j in vector
+
+for each row
+	for each element
+		row,col(0-max) = 0
+		
+for each col
+	for each element
+		row(0-max),col = 0

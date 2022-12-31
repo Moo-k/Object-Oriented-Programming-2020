@@ -1,0 +1,9 @@
+if bishopcolor != target color
+	return impossible
+else
+	if sum of coords of bishop and target are same | rowcoord - colcoord of bishop and target are the same
+		moves = 1
+	else
+		moves = 2
+		
+return moves

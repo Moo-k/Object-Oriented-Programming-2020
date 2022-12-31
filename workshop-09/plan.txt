@@ -1,0 +1,3 @@
+add behaviors for mobs
+add class for player
+implement polymorphism for items

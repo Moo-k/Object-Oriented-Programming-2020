@@ -1,0 +1,3 @@
+infinite game
+	score scales with distance
+	difficulty scales with score

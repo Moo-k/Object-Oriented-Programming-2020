@@ -1,0 +1,14 @@
+input target
+wordsize = strlen(target)
+
+for word in book
+	same = false
+	for i in wordsize
+		if word[i] != target[i]
+			return false
+		else
+		return true
+	if same == true
+		count++
+		
+return count

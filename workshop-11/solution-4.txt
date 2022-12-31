@@ -1,0 +1,3 @@
+stick to left wall // bit slow
+
+hadlock's algorithm

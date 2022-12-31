@@ -1,0 +1,3 @@
+map words to each other based on starting and ending
+
+idk some sort of network of words and finding shortest path within that
